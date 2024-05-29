@@ -5,10 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="spinner.css" />
-    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <script src="https://cdn.tailwindcss.com"></script>
     <title>Random User Generator</title>
   </head>
-  <body class="bg-white text-white overflow-x-hidden">
+  <body class="bg-white text-black overflow-x-hidden">
     <div
       class="relative max-w-2xl m-auto mt-12 border border-white rounded-lg p-4"
     >
@@ -19,8 +19,8 @@
           class="relative bg-black text-white px-4 py-2 rounded w-full my-4"
         >
           Generate User
+          <div class="spinner hidden"></div>
         </button>
-        <div class="spinner hidden"></div>
       </div>
 
       <div id="user" class="mt-6">
